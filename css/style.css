@@ -1,0 +1,96 @@
+.jumbotron {
+    background-image: url('https://dainese-cdn.thron.com/delivery/public/image/dainese/882ee800-8ae5-4020-bba7-5be676d2ce9f/3a6t2c/std/1920x472/banner_jackets');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height:200px;
+}
+.jumbotron p {
+  display:flex;
+  align-items:left;
+  color: white;
+}
+h1{
+  font-family: Arial bold;
+  font-style: italic;
+  text-shadow: 2px 2px 15px white;
+  color: white;
+}
+.flex-container {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+.flex-title {
+  display: flex;
+  border: solid 1px lightgray;
+  margin: 5px;
+  padding:10px 15px;  
+  flex-wrap: wrap;
+}
+.shopname{
+  padding:5px;
+  width:590px;
+}
+.shopname > img{
+  width: 600px;
+}
+.items {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: lightgray;
+  padding: 5px;
+  }
+.item1 ,.item2, .item3 {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding:20px;  
+}
+.item4, .item5, .item6 {
+  background-color: darkorange;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;  
+  color: white;
+  font-family: arial;
+}
+
+.col-md-4 {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  padding:10px 10px;
+  margin: auto;
+  justify-content:space-around;
+  align-contents: center;
+}
+h5 {
+  text-align: center;
+}
+img {
+   width: 250px;
+  height: 200px; 
+  opacity: 1.0;
+  }  
+p{
+  text-align: center;  
+}   
+footer{
+  text-align: center;
+  font-style: Arial 6px;
+  color: gray;
+}
+
+/*hover attributes here*/
+.items p:hover, h1:hover, a:hover{
+  color: lightblue;
+}
+
+.items img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
